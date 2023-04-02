@@ -8,7 +8,7 @@ npm i snarkyjs
 
 [Documentation for SnarkyJS Functions / Classes / Types etc](https://docs.minaprotocol.com/zkapps/snarkyjs-reference#publickey).
 
-It is recommended to use the [zkApp CLI](https://github.com/o1-labs/zkapp-cli) to build a zkApp in Mina.
+It is recommended to use the [zkApp CLI](https://github.com/o1-labs/zkapp-cli) to build a zkApp in Mina, however, this project did not use that, you can `npm i` if you are cloning this project.
 
 Install zkApp CLI
 
