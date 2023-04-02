@@ -1,0 +1,31 @@
+{
+	"name": "snarky-js-meek",
+	"version": "1.0.0",
+	"description": "Snarky js general use",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"zkapp": "ts-node --esm ./contracts/contract.ts"
+	},
+	"keywords": [
+		"snarkyjs",
+		"circom"
+	],
+	"author": "Meek Msaki",
+	"license": "MIT",
+	"dependencies": {
+		"next": "^13.2.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"snarkyjs": "^0.9.5"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "18.15.11",
+		"@types/react": "18.0.32",
+		"typescript": "^5.0.3"
+	}
+}
